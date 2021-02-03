@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Welcome to Maktabah Jafariyah</title>
+      <meta name="description" content="" />
+      <meta name="keyword" content="" />
+      <meta property="og:title" content=""/>
+      <meta property="og:description" content="">
+      <meta property="og:image" content="">
+      <!-- ====== Bootstrap css ====== -->
+      <link rel="stylesheet" href="css/bootstrap.css">
+      <!-- ====== fontAwsome ====== -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <!-- ====== Main StyleSheet ====== -->
+      <link rel="stylesheet" href="css/style.css">
+      <!-- ====== Responsiv StyleSheet ====== -->
+      <link rel="stylesheet" href="css/responsive.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+      <link rel="shortcut icon" href="images/favicon.ico"/>
+   </head>
+   <body>
+      <!-- ======= Top Header Start ======= -->
+      <div class="top-header d-md-block d-xl-block d-lg-block d-none">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-lg-4 col-xl-4 col-md-5 col-sm-12 col-12">
+                  <div class="logo">
+                     <a href=""><img src="images/logo.png" alt="" class="img-fluid"/></a>
+                  </div>
+               </div>
+               
+               <div class="col-lg-6 col-xl-6 col-md-4 col-sm-12 col-12">
+                  <div class="search-box">
+                     <input type="text" class="form-control" placeholder="Search"/>
+                     <a href=""><i class="fas fa-search"></i></a>
+                  </div>
+               </div>
+               <div class="col-lg-2 col-xl-2 col-md-3 col-sm-12 col-12">
+                  <div class="top-right">
+                     <p><a href="">Apply</a> <span>-</span> <a href="">Visit</a>
+                        <span>-</span> <a href="">Login</a></p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- ======= Top  Header End ======= -->
+      <!-- =======  Desktop Menu Navigation Menu Start ======= -->
+      <header id="header" class="d-md-block d-xl-block d-lg-block d-none">
+         <div class="container-fluid">
+            <nav class="nav-menu">
+               <ul>
+                  <li class=""><a href="">About Us</a></li>
+                  <li><a href="#">Admissions </a></li>
+                  <li class="drop-down">
+                     <a href="">Academics </a>
+                     <ul>
+                        <li><a href="#">Schools</a></li>
+                        <li><a href="#">Graduate Program</a></li>
+                        <li><a href="#">Distance Learning Pro.3</a></li>
+                        <li><a href="#">Human Resource Dev.</a></li>
+                        <li><a href="#">School of Management</a></li>
+                        <li><a href="#">Employement and Training</a></li>
+
+                     </ul>
+                  </li>
+                  <li><a href="#">Research </a></li>
+                 <li><a href="#">Student Corner</a></li>
+                 <li class="drop-down">
+                     <a href="">Institution </a>
+                     <ul>
+                        <li><a href="#">Research Centre</a></li>
+                        <li><a href="#">Health Centre</a></li>
+                        <li><a href="#">Training Centre</a></li>
+                        </ul>
+                  </li>
+               </ul>
+            </nav>
+         </div>
+      </header>
+      <!-- ======= Desktop Menu Navigation Menu End ======= -->
+      <!-- ======= Mobile Section Header Start ======= -->
+     <div class="">
+         <div class="MobileMenu d-md-none d-xl-none d-lg-none clearfix ps-Sticky">
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="col-5">
+                     <a href="#">
+                     <img src="images/logo.png" alt="mobileLogo" class="img-fluid mt-2">
+                     </a>
+                  </div>
+                  <div class="col-7">
+                     <div class="top-right">
+                        <p><a href="">Apply  <span>-</span> <a href="">Visit  <span>-</span> <a href="">About</a> <span>-</span> <a href="">Contact</a></p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="container-fluid mb-2 mt-2">
+               <div class="row">
+                  <div class="col-2">
+                     <button type="button" id="sidebarCollapse" class="newHamburge">
+                     <i class="fas fa-bars"></i></button>
+                  </div>
+                  <div class="col-10">
+                     <div class="search-box">
+                        <input type="text" class="form-control" placeholder="Search"/>
+                        <a href=""><i class="fas fa-search"></i></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="_menuOpenMobile">
+               <nav id="sidebar">
+                  <div id="dismiss">
+                     <i class="fas fa-times"></i>
+                  </div>
+                  <ul class="list-unstyled components">
+                     
+                     <li><a href="#">Admissions</a></li>
+                     <li class="clearfix">
+                        <a href="#homeSubmenu"  data-toggle="collapse"
+                           aria-expanded="false">Academics<i class="fas fa-angle-down"></i></a>
+                        <ul class="collapse list-unstyled homeSubmenu" id="homeSubmenu">
+                           <li><a href="#">Schools</a></li>
+                           <li><a href="#">Graduate Program</a></li>
+                           <li><a href="#">Distance Learning Pro.3</a></li>
+                           <li><a href="#">Human Resource Dev.</a></li>
+                           <li><a href="#">School of Management</a></li>
+                        </ul>
+                     </li>
+                     <li><a href="#">Research</a></li>
+                <li><a href="#">Student Corner</a></li>
+                <li class="clearfix">
+                        <a href="#Institution"  data-toggle="collapse"
+                           aria-expanded="false">Institution <i class="fas fa-angle-down"></i></a>
+                        <ul class="collapse list-unstyled homeSubmenu" id="Institution">
+                        <li><a href="#">Research Centre</a></li>
+                        <li><a href="#">Health Centre</a></li>
+                        <li><a href="#">Training Centre</a></li>
+                        </ul>
+                     </li>
+                   </ul>
+               </nav>
+            </div>
+         </div>
+      </div>
+      <!-- ======= Mobile Section Header End ======= -->
+      <!-- ======= Banner Section Start ======= -->
+      <div id="testimonial-slider" class="owl-carousel">
+         <div class="testimonial_new">
+            <div class="pic">
+               <img src="images/slider-1.JPG" alt="">
+            </div>
+         </div>
+         <div class="testimonial_new">
+            <div class="pic">
+               <img src="images/slider-2.JPG" alt="">
+            </div>
+         </div>
+         <div class="testimonial_new">
+            <div class="pic">
+               <img src="images/slider-3.JPG" alt="">
+            </div>
+         </div>
+      </div>
+      <!-- ======= Banner Section Header End ======= -->
+      <!-- ======= Mj About Us & News Event Start ======= -->
+      <div class="container-fluid mt-4 mb-4">
+         <div class="row">
+            <div class="col-lg-7 col-xl-7 col-12">
+               <div class="mj-title">
+                  <h1>Welcome to Maktabah Jafariyah </h1>
+                  <p>If we wish to become a developed nation we need to fight the demon of illiteracy. It is the duty of every educated citizen to contribute in this area. ‘Maktabah Jafariyah’ is a research driven knowledge academy conceptualized for this purpose by ‘Ahmed Vikas Mandal’ (AVM). The foundation stone was laid by Patron-in-Chief, Syed Mohammed Mujahid Husain Jafri on Thursday 22nd November 2007.</p>
+                  <p>Maktabah Jafariyah is geographically located on 23 degrees 58’ 12.5” N, 72 degrees 20’ 19.02” E with an elevation of 440 feet. The academy is situated at Sedrana Square of Sidhpur taluka in Patan district, 6 km to the north of Sidhpur and 35 km to the east of Patan district headquarters. It has well developed rail-road connectivity. The nearest railway station (Sidhpur) is at a distance of 6 kms from here while the nearest airport (Ahmedabad) is at a distance of 110 kms.</p>
+                  <p>Mahatma Gandhi has said “Be the change you want to see in the world”. Maktabah Jafariyah is indeed the catalyst of change which is destined to enhance the education level of the region.</p>
+                  <a href="#" class="btn btn-primary mj-btn">About Us</a>
+               </div>
+            </div>
+            <div class="col-lg-5 col-xl-5 col-12">
+               <div class="mj-title">
+                  <h2>News & Events</h2>
+               </div>
+               <div id="">
+                  <div class="row mb-3">
+                     <div class="col-lg-3 col-md-3 col-12">
+                        <div class="box-date">
+                           <div class="month">
+                              <p>Dec</p>
+                           </div>
+                           <div class="date">
+                              <p>24-2021</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-9 col-md-9 col-12 prp-0">
+                        <div class="news-event-d">
+                           <h3>About M.Sc.College</h3>
+                           <p>Maktabah Jafariyah has started new M.Sc. College.
+                              All eligible applicants are invited for admission.</p>
+                           </div>
+                     </div>
+                  </div>
+                  <div class="row mb-3">
+                     <div class="col-lg-3 col-md-3 col-12">
+                        <div class="box-date">
+                           <div class="month">
+                              <p>Apr</p>
+                           </div>
+                           <div class="date">
+                              <p>02-2020</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-9 col-md-9 col-12 prp-0">
+                        <div class="news-event-d">
+                           <h3>Conducted BAOU exam</h3>
+                           <p>Maktabah Jafariyah Knowledge & Research Academy has conducted BAOU exam on 17-09-2020.</p>
+                           </div>
+                     </div>
+                  </div>
+                  <div class="row mb-3">
+                     <div class="col-lg-3 col-md-3 col-12">
+                        <div class="box-date">
+                           <div class="month">
+                              <p>Jun</p>
+                           </div>
+                           <div class="date">
+                              <p>15-2021</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-9 col-md-9 col-12 prp-0">
+                        <div class="news-event-d">
+                           <h3>Call for Research Paper</h3>
+                           <p>we invite more research papers in multidisciplinary subjects for the ensuring volume of  "International Journal of Maktabah Jafariyah"</p>
+                           </div>
+                     </div>
+                  </div>
+                  
+
+                  <div class="row mb-3">
+                     <div class="col-lg-3 col-md-3 col-12">
+                        <div class="box-date">
+                           <div class="month">
+                              <p>Jul</p>
+                           </div>
+                           <div class="date">
+                              <p>28-2021</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-9 col-md-9 col-12 prp-0">
+                        <div class="news-event-d">
+                           <h3>I.T.I. ADVERTISEMENT 2019</h3>
+                           <p>ITI_ADVERTISEMENT 2019</p>
+                           <p>Online ( Via Zoom or Similar )</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <a href="#" class="btn btn-primary mj-btn" style="float:  right">View More</a>
+            </div>
+         </div>
+      </div>
+      <!-- ======= Mj About Us & News Event End ======= -->
+      <!-- ======= Mj Our Values & Mission Start ======= -->
+      <div class="container-fluid mt-4 mb-4">
+         <div class="row">
+            <div class="col-lg-6 col-xl-6 col-md-6 col-12">
+               <div class="our-gen-bg">
+                  <div class="mj-title">
+                     <h2> Our Values </h2>
+                     <p>"To be a research driven knowledge academy that provides modern education keeping in mind our traditional values, thereby creating not only employment opportunities but also inculcating good character and humaneness in our students"</p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-6 col-xl-6 col-md-6 col-12">
+               <div class="our-gen-bg">
+                  <div class="mj-title">
+                     <h2> Mission </h2>
+                     <p>"To create an infrastructure that produces a dedicated, disciplined and intellectual human resource which would help in the nation's development"</p>
+                     <p>"To nurture the quality of love for excellence imbued with moral & spiritual values in our students which would help them in all walks of life"</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- ======= Mj Our Values & Mission End ======= -->
+      <!-- ======= Mj Campus Initiatives Start ======= -->
+      <div class="container-fluid mt-4 mb-4">
+         <div class="row">
+            <div class="col-lg-12 col-xl-12 col-md-12 col-12">
+               <div class="mj-title">
+                  <h2> Campus Initiatives </h2>
+               </div>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-lg-12 col-xl-12 col-md-12 col-12">
+               <div id="Campus-Initiatives" class="owl-carousel">
+                  <div class="testimonial">
+                     <div class="shadow-effect">
+                        <img class="imgPlaceholder" src="images/1.JPG" alt="">
+                        <h5>Clean India Compaign</h5>
+                        <p>To recognize the importance of diversity, equity and inclusion as a foundation for university, MSU is using a comprehensive DEI planning process focusing on those values and working in collaboration with the overall strategic planning process.</p>
+                        <a href="#" class="btn btn-primary mj-btn ccc-read">Read More</a>
+                     </div>
+                  </div>
+                  <div class="testimonial">
+                     <div class="shadow-effect">
+                        <img class="imgPlaceholder" src="images/2.JPG" alt="">
+                        <h5>Blood Donation Camp</h5>
+                        <p>To recognize the importance of diversity, equity and inclusion as a foundation for university, MSU is using a comprehensive DEI planning process focusing on those values and working in collaboration with the overall strategic planning process.</p>
+                        <a href="#" class="btn btn-primary mj-btn ccc-read">Read More</a>
+                     </div>
+                  </div>
+                  <div class="testimonial">
+                     <div class="shadow-effect">
+                        <img class="imgPlaceholder" src="images/3.JPG" alt="">
+                        <h5>Workshop on Husaini Blood</h5>
+                        <p>To recognize the importance of diversity, equity and inclusion as a foundation for university, MSU is using a comprehensive DEI planning process focusing on those values and working in collaboration with the overall strategic planning process.</p>
+                        <a href="#" class="btn btn-primary mj-btn ccc-read">Read More</a>
+                     </div>
+                  </div>
+                  <div class="testimonial">
+                     <div class="shadow-effect">
+                        <img class="imgPlaceholder" src="images/1.JPG" alt="">
+                        <h5>Addiction Free Rally</h5>
+                        <p>To recognize the importance of diversity, equity and inclusion as a foundation for university, MSU is using a comprehensive DEI planning process focusing on those values and working in collaboration with the overall strategic planning process.</p>
+                        <a href="#" class="btn btn-primary mj-btn ccc-read">Read More</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- ======= Mj Campus Initiatives End ======= -->
+      <!-- ======= Mj Facilities Start ======= -->
+      <div class="container-fluid mt-4 mb-4">
+         <div class="row">
+            <div class="col-lg-12 col-xl-12 col-md-12 col-12">
+               <div class="mj-title">
+                  <h2> Facilities </h2>
+               </div>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-lg-12 col-xl-12 col-md-12 col-12">
+               <div id="Facilities" class="owl-carousel">
+                  <div class="testimonial">
+                     <div class="shadow-effect">
+                        <img class="imgPlaceholder" src="images/play.JPG" alt="">
+                        <h5>Clean Playgrounds </h5>
+                        <p>To recognize the importance of diversity, equity and inclusion as a foundation for university, MSU is using a comprehensive DEI planning process focusing on those values and working in collaboration with the overall strategic planning process.</p>
+                        <a href="#" class="btn btn-primary mj-btn ccc-read">Read More</a>
+                     </div>
+                  </div>
+                     <div class="testimonial">
+                     <div class="shadow-effect">
+                        <img class="imgPlaceholder" src="images/trans.png" alt="">
+                        <h5>Transportation</h5>
+                        <p>To recognize the importance of diversity, equity and inclusion as a foundation for university, MSU is using a comprehensive DEI planning process focusing on those values and working in collaboration with the overall strategic planning process.</p>
+                        <a href="#" class="btn btn-primary mj-btn ccc-read">Read More</a>
+                     </div>
+                  </div>
+                  <div class="testimonial">
+                     <div class="shadow-effect">
+                        <img class="imgPlaceholder" src="images/info.png" alt="">
+                        <h5>Information Hub</h5>
+                        <p>To recognize the importance of diversity, equity and inclusion as a foundation for university, MSU is using a comprehensive DEI planning process focusing on those values and working in collaboration with the overall strategic planning process.</p>
+                        <a href="#" class="btn btn-primary mj-btn ccc-read">Read More</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- ======= Mj Facilities End ======= -->
+     
+      <!-- ======= Mj Contact Map Start ======= -->
+      <div class="container-fluid mt-4 mb-4">
+         <div class="row">
+            <div class="col-lg-12 col-xl-12 col-md-12 col-12">
+               <div class="mj-title">
+                  <h2> Get Direction </h2>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="map-iframe mb-3">
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3645.719958840009!2d72.33614621430144!3d23.970340886256977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395cf34e604d1757%3A0xdef1ea5d072a171e!2sMaktabah%20Jafariyah%20Knowledge%20And%20Research%20Acadamy!5e0!3m2!1sen!2sin!4v1610852109177!5m2!1sen!2sin" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      </div>
+      <!-- ======= Mj Contact Map End ======= -->
+     
+      <!-- ======= Mj Footer Section Start ======= -->
+      <footer class="mj-footer">
+         <div class="container-fluid">
+         <div class="row">
+            <div class="col-lg-1 col-xl-1 col-md-2 col-sm-12 col-12">
+               <div class="footer_logo">
+                  <a href=""><img src="images/footer.png" alt="" class="img-fluid"></a>
+               </div>
+            </div>
+            <div class="col-lg-6 col-xl-6 col-md-6 col-sm-12 col-12 footer-new-copy">
+               <ul class="list-unstyled new-footer-ul">
+                  <li>
+                     <a href="#">Privacy Policy</a>
+                     <span class="line">|</i></span>
+                     <a href="#">Terms</a>
+                     <span class="line">|</i></span>
+                     <a href="#">Contact</a>
+                  </li>
+               </ul>
+               <p>Sedrana-Square,
+                Ta. Sidhpur, Dist. Patan,
+                 State Gujarat, India, Pin. 384151. </p>
+                 <p>Email info@maktabahjafariyah.org</p>
+                
+            </div>
+            <div class="col-lg-5 col-xl-5 col-md-4 col-sm-12 col-12 footer-new-copy">
+               <p>Developed By Maktabah Jafariyah IT Team</p>
+               <p>Copyright © 2021. All rights reserved</p>
+                            
+            </div>
+
+             </div>
+       </div>
+      </footer>
+      <!-- ======= Mj Footer Section End ======= -->
+      <div class="progress-wrap">
+         <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+         </svg>
+      </div>
+      <!-- ======= Jquery ======= -->
+      <script src="js/jquery-3.2.1.min.js"></script>
+      <!-- ======= Bootstrap Js ======= -->
+      <script src="js/bootstrap.js"></script>
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+      <script src="js/jquery.vticker.min.js"></script>
+      <script>
+         // mobile menu start
+         $(document).ready(function() {
+            $("#sidebar").mCustomScrollbar({
+               theme: "minimal"
+            });
+            
+            $('#dismiss, .overlay').on('click', function() {
+               $('#sidebar').removeClass('active');
+               $('.overlay').removeClass('active');
+            });
+            
+            $('#sidebarCollapse').on('click', function() {
+               $('#sidebar').addClass('active');
+               $('.overlay').addClass('active');
+               $('.collapse.in').toggleClass('in');
+               $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+            });
+         });
+         // mobile menu ends
+      </script>
+      <script>
+         //Scroll back to top
+                (function($) { "use strict";
+                  $(document).ready(function(){"use strict";
+                     var progressPath = document.querySelector('.progress-wrap path');
+                     var pathLength = progressPath.getTotalLength();
+                     progressPath.style.transition = progressPath.style.WebkitTransition = 'none';
+                     progressPath.style.strokeDasharray = pathLength + ' ' + pathLength;
+                     progressPath.style.strokeDashoffset = pathLength;
+                     progressPath.getBoundingClientRect();
+                     progressPath.style.transition = progressPath.style.WebkitTransition = 'stroke-dashoffset 10ms linear';      
+                     var updateProgress = function () {
+                        var scroll = $(window).scrollTop();
+                        var height = $(document).height() - $(window).height();
+                        var progress = pathLength - (scroll * pathLength / height);
+                        progressPath.style.strokeDashoffset = progress;
+                     }
+                     updateProgress();
+                     $(window).scroll(updateProgress);   
+                     var offset = 50;
+                     var duration = 550;
+                     jQuery(window).on('scroll', function() {
+                        if (jQuery(this).scrollTop() > offset) {
+                           jQuery('.progress-wrap').addClass('active-progress');
+                           } else {
+                           jQuery('.progress-wrap').removeClass('active-progress');
+                        }
+                     });            
+                     jQuery('.progress-wrap').on('click', function(event) {
+                        event.preventDefault();
+                        jQuery('html, body').animate({scrollTop: 0}, duration);
+                        return false;
+                     })
+                     
+                     
+                  });
+                  
+                })(jQuery); 
+                
+         // Main Slider Js Start
+                $(document).ready(function(){
+                $("#testimonial-slider").owlCarousel({
+                items:1,
+                itemsDesktop:[1000,1],
+                itemsDesktopSmall:[979,1],
+                itemsTablet:[768,1],
+                pagination:false,
+                navigation:true,
+                navigationText:["",""],
+                autoPlay:true
+               });
+               });
+               // Main Slider Js End
+         
+         
+         
+         //Campus-Initiatives  Js Start
+               
+         $(document).ready(function(){
+                $("#Campus-Initiatives").owlCarousel({
+                items:3,
+                itemsDesktop:[1000,1],
+                itemsDesktopSmall:[979,1],
+                itemsTablet:[768,1],
+                pagination:false,
+                navigation:false,
+                navigationText:["",""],
+                autoPlay:true
+               });
+               });
+               //Campus-Initiatives  Js End
+         
+         
+         //Facilities Slider Js Start
+         $(document).ready(function(){
+                $("#Facilities").owlCarousel({
+                items:3,
+                itemsDesktop:[1000,1],
+                itemsDesktopSmall:[979,1],
+                itemsTablet:[768,1],
+                pagination:false,
+                navigation:false,
+                navigationText:["",""],
+                autoPlay:true
+               });
+               });
+         
+         //Facilities Slider Js End
+         
+      </script>
+   </body>
+</html>
