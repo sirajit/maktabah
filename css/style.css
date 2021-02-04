@@ -948,4 +948,20 @@ span.line {
     object-fit: contain;
     margin-top: 8px;
 }
+
+.copy-right-new{
+  background: #4e5c63;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  text-align:center;
+}
+.copy-right-new p {
+    color: #fff;
+    font-size: 12px;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 /************* Footer Css End **********/
