@@ -340,6 +340,7 @@ a, a:hover, a:focus {
     width: 63%;
     margin: auto;
     float:right;
+    margin-top: 10px;
 }
 .search-box a{
 	position: absolute;
@@ -358,7 +359,7 @@ a, a:hover, a:focus {
 .top-right p{
 	font-size:15px;
 	font-family: 'OpenSans-Regular', sans-serif !important;
-	margin-top: 10px
+	margin-top: 26px
 }
 .top-right p a{
 	color:#4e5c63;
@@ -954,14 +955,14 @@ span.line {
     display: flex;
     justify-content: center;
     align-items: center;
-  text-align:center;
-}
+    text-align:center;
+
+  }
 .copy-right-new p {
     color: #fff;
     font-size: 12px;
-    margin-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
+    margin: auto;
+    padding: 5px;
+    }
 
 /************* Footer Css End **********/
