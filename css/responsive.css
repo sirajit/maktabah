@@ -23,15 +23,19 @@
 	.top-right {
     text-align: left;
 }
+}
+
 	.top-right p {
     font-size: 11px;
     font-family: 'OpenSans-Regular', sans-serif !important;
     margin-top: 14px;
 }
+
 .search-box {
     width: 100%;
     position: relative;
     margin: auto;
+
     
 }
 .search-box input {
@@ -43,6 +47,7 @@
     border-top: 0;
     padding: 0px;
 	border-radius:0px;
+  height: 25px;
 }
 .search-box input:focus {
     color: #495057;
@@ -53,6 +58,7 @@
 }
 .search-box a {
 	    right: 1px;
+      margin: -5px 0px 0px 0px;
 }
  .pic img {
     height: 200px;

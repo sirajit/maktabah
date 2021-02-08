@@ -562,7 +562,7 @@ a, a:hover, a:focus {
 #dismiss {
 	width: 35px;
     height: 35px;
-    line-height: 5px;
+    line-height: 35px;
     text-align: center;
    background: #8ac655;
     position: absolute;
