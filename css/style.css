@@ -523,8 +523,8 @@ a, a:hover, a:focus {
 }
 
 .newHamburge {
-    height: 33px;
-    width: 33px;
+    height: 29px;
+    width: 29px;
     background: #8ac655;
     color: rgb(255, 255, 255);
     border: none;
@@ -562,7 +562,7 @@ a, a:hover, a:focus {
 #dismiss {
 	width: 35px;
     height: 35px;
-    line-height: 35px;
+    line-height: 5px;
     text-align: center;
    background: #8ac655;
     position: absolute;
